@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Petroleum Data - Geology of Kurdistan</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="bg-gray-50">
+  <!-- Header -->
+  <header class="header-gradient p-6 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="Kurdistan Flag" 
+             class="h-14 rounded-full shadow-lg border-2 border-white transform hover:rotate-12 transition-transform duration-300" />
+        <h1 class="text-white text-3xl md:text-4xl font-bold tracking-tight">Geology of Kurdistan</h1>
+      </div>
+      <nav class="mt-4 md:mt-0" aria-label="Main Navigation">
+        <ul class="flex flex-wrap justify-center gap-4 md:gap-6 text-white font-medium">
+          <li><a href="index.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="home" class="w-5 h-5"></i> Home</a></li>
+          <li><a href="articles.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="book-open"></i> Articles</a></li>
+          <li><a href="maps.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="map"></i> Maps</a></li>
+          <li><a href="petroleum.html" class="underline font-semibold flex items-center gap-1 px-3 py-2 rounded-lg bg-white bg-opacity-20">
+            <i data-lucide="fuel"></i> Petroleum</a></li>
+          <li><a href="about.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="info"></i> About</a></li>
+          <li><a href="contact.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="mail"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+           alt="Oil field" class="w-full h-full object-cover">
+    </div>
+    
+    <div class="max-w-6xl mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Petroleum Systems of Kurdistan</h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Explore the major oil fields, reservoir characteristics, and production data of the Kurdistan Region.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#fields" class="btn bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-semibold">
+          Oil Fields
+        </a>
+        <a href="#reservoirs" class="btn bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold">
+          Reservoirs
+        </a>
+        <a href="#data" class="btn bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
+          Production Data
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 py-16">
+    <!-- Key Oil Fields -->
+    <section id="fields" class="mb-20 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Key Oil Fields</h2>
+        <div class="w-20 h-1 bg-red-600 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Major producing oil fields in the Kurdistan Region of Iraq.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1604881991720-f91add269bed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                 alt="Taq Taq Field" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+            <div class="absolute bottom-0 left-0 p-4 text-white">
+              <h3 class="text-xl font-bold">Taq Taq Field</h3>
+            </div>
+          </div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="text-sm font-medium text-red-600">Genel Energy</span>
+            <span class="text-sm bg-red-100 text-red-800 px-2 py-1 rounded">Active</span>
+          </div>
+          <p class="text-gray-700 mb-4">One of the largest producing fields in Kurdistan with complex fractured carbonate reservoirs.</p>
+          <div class="flex justify-between items-center">
+            <div>
+              <span class="text-sm text-gray-500">Daily Production</span>
+              <div class="font-bold">10,000 bpd</div>
+            </div>
+            <a href="#" class="text-red-600 hover:underline font-medium flex items-center">
+              Details
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1635070040851-7e0d6ef2979a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                 alt="Shaikan Field" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+            <div class="absolute bottom-0 left-0 p-4 text-white">
+              <h3 class="text-xl font-bold">Shaikan Field</h3>
+            </div>
+          </div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="text-sm font-medium text-red-600">Gulf Keystone</span>
+            <span class="text-sm bg-red-100 text-red-800 px-2 py-1 rounded">Active</span>
+          </div>
+          <p class="text-gray-700 mb-4">Major field with significant reserves in Jurassic and Triassic formations.</p>
+          <div class="flex justify-between items-center">
+            <div>
+              <span class="text-sm text-gray-500">Daily Production</span>
+              <div class="font-bold">40,000 bpd</div>
+            </div>
+            <a href="#" class="text-red-600 hover:underline font-medium flex items-center">
+              Details
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="relative h-48 mb-4 rounded-lg overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                 alt="Khurmala Field" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
+            <div class="absolute bottom-0 left-0 p-4 text-white">
+              <h3 class="text-xl font-bold">Khurmala Field</h3>
+            </div>
+          </div>
+          <div class="flex justify-between items-center mb-3">
+            <span class="text-sm font-medium text-red-600">KRG</span>
+            <span class="text-sm bg-red-100 text-red-800 px-2 py-1 rounded">Active</span>
+          </div>
+          <p class="text-gray-700 mb-4">Important field operated by the Kurdistan Regional Government with multiple reservoirs.</p>
+          <div class="flex justify-between items-center">
+            <div>
+              <span class="text-sm text-gray-500">Daily Production</span>
+              <div class="font-bold">15,000 bpd</div>
+            </div>
+            <a href="#" class="text-red-600 hover:underline font-medium flex items-center">
+              Details
+              <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservoir Types -->
+    <section id="reservoirs" class="mb-20 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Reservoir Types</h2>
+        <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Primary reservoir formations in Kurdistan's petroleum systems.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="bg-yellow-100 p-4 rounded-lg mb-4 h-48 flex items-center justify-center">
+            <i data-lucide="layers" class="w-16 h-16 text-yellow-600"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-yellow-700 mb-2">Carbonate Reservoirs</h3>
+          <p class="text-gray-700 mb-4">Mainly Cretaceous & Jurassic formations with good porosity and permeability characteristics.</p>
+          <ul class="text-sm text-gray-600 space-y-1 mb-4">
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Qamchuqa Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Sarmord Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Barsarin Formation</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="bg-yellow-100 p-4 rounded-lg mb-4 h-48 flex items-center justify-center">
+            <i data-lucide="file-text" class="w-16 h-16 text-yellow-600"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-yellow-700 mb-2">Clastic Reservoirs</h3>
+          <p class="text-gray-700 mb-4">Tertiary sandstones with variable reservoir quality depending on depositional environment.</p>
+          <ul class="text-sm text-gray-600 space-y-1 mb-4">
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Mukdadiya Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Bai Hassan Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Lower Fars Formation</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="geo-card bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+          <div class="bg-yellow-100 p-4 rounded-lg mb-4 h-48 flex items-center justify-center">
+            <i data-lucide="activity" class="w-16 h-16 text-yellow-600"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-yellow-700 mb-2">Fractured Limestone</h3>
+          <p class="text-gray-700 mb-4">Naturally fractured reservoirs with production primarily from fracture networks.</p>
+          <ul class="text-sm text-gray-600 space-y-1 mb-4">
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Shiranish Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Bekhme Formation</span>
+            </li>
+            <li class="flex items-center">
+              <i data-lucide="check" class="w-4 h-4 mr-2 text-yellow-600"></i>
+              <span>Aqra Formation</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Production Data -->
+    <section id="data" class="mb-12 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Production Data</h2>
+        <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Current production statistics from major fields in the Kurdistan Region.</p>
+      </div>
+      
+      <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="data-table min-w-full">
+            <thead>
+              <tr>
+                <th class="py-4 px-6 text-left">Field Name</th>
+                <th class="py-4 px-6 text-left">Operator</th>
+                <th class="py-4 px-6 text-left">Reservoir Type</th>
+                <th class="py-4 px-6 text-left">Daily Production (bpd)</th>
+                <th class="py-4 px-6 text-left">Cumulative Production</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-gray-200 hover:bg-gray-50">
+                <td class="py-4 px-6 font-medium">Taq Taq</td>
+                <td class="py-4 px-6">Genel Energy</td>
+                <td class="py-4 px-6">
+                  <span class="inline-block px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Carbonate</span>
+                </td>
+                <td class="py-4 px-6 font-medium">10,000</td>
+                <td class="py-4 px-6">250M+ barrels</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-50">
+                <td class="py-4 px-6 font-medium">Shaikan</td>
+                <td class="py-4 px-6">Gulf Keystone</td>
+                <td class="py-4 px-6">
+                  <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Fractured Limestone</span>
+                </td>
+                <td class="py-4 px-6 font-medium">40,000</td>
+                <td class="py-4 px-6">500M+ barrels</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-50">
+                <td class="py-4 px-6 font-medium">Khurmala</td>
+                <td class="py-4 px-6">KRG</td>
+                <td class="py-4 px-6">
+                  <span class="inline-block px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs">Carbonate</span>
+                </td>
+                <td class="py-4 px-6 font-medium">15,000</td>
+                <td class="py-4 px-6">300M+ barrels</td>
+              </tr>
+              <tr class="border-b border-gray-200 hover:bg-gray-50">
+                <td class="py-4 px-6 font-medium">Miran</td>
+                <td class="py-4 px-6">Heritage Oil</td>
+                <td class="py-4 px-6">
+                  <span class="inline-block px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs">Fractured Limestone</span>
+                </td>
+                <td class="py-4 px-6 font-medium">8,000</td>
+                <td class="py-4 px-6">100M+ barrels</td>
+              </tr>
+              <tr class="hover:bg-gray-50">
+                <td class="py-4 px-6 font-medium">Shewashan</td>
+                <td class="py-4 px-6">Addax Petroleum</td>
+                <td class="py-4 px-6">
+                  <span class="inline-block px-2 py-1 bg-purple-100 text-purple-800 rounded-full text-xs">Clastic</span>
+                </td>
+                <td class="py-4 px-6 font-medium">5,000</td>
+                <td class="py-4 px-6">75M+ barrels</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Petroleum System Diagram -->
+    <section class="bg-gray-100 rounded-xl p-8 mb-12">
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold text-gray-800 mb-2">Kurdistan Petroleum System</h3>
+        <p class="text-gray-600 max-w-2xl mx-auto">Schematic representation of the key elements of Kurdistan's petroleum systems.</p>
+      </div>
+      
+      <div class="bg-white p-6 rounded-lg shadow-sm">
+        <img src="https://www.researchgate.net/profile/Mohammed-Ameen-2/publication/334358909/figure/fig2/AS:779806305062912@1562849995007/Petroleum-system-elements-of-the-Kurdistan-Region-of-Iraq.png" 
+             alt="Petroleum System Diagram" class="w-full rounded-lg border border-gray-200">
+        <div class="mt-4 text-sm text-gray-500 text-center">
+          Source: ResearchGate - Petroleum system elements of the Kurdistan Region of Iraq
+        </div>
+      </div>
+    </section>
+
+    <!-- Future Developments -->
+    <section class="bg-blue-50 rounded-xl p-8">
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-bold text-blue-800 mb-2">Future Developments</h3>
+        <p class="text-blue-600 max-w-2xl mx-auto">Upcoming projects and exploration activities in the Kurdistan Region.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-blue-200">
+          <h4 class="font-semibold text-lg mb-2 flex items-center">
+            <i data-lucide="map-pin" class="w-5 h-5 text-blue-600 mr-2"></i>
+            New Exploration Blocks
+          </h4>
+          <p class="text-gray-700 mb-4">The KRG has announced several new exploration blocks with significant potential for oil and gas discoveries.</p>
+          <div class="flex items-center text-sm text-gray-500">
+            <i data-lucide="calendar" class="w-4 h-4 mr-2"></i>
+            <span>Licensing rounds planned for 2025-2026</span>
+          </div>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-blue-200">
+          <h4 class="font-semibold text-lg mb-2 flex items-center">
+            <i data-lucide="zap" class="w-5 h-5 text-blue-600 mr-2"></i>
+            Gas Development Projects
+          </h4>
+          <p class="text-gray-700 mb-4">New initiatives to develop Kurdistan's natural gas resources for domestic use and potential export.</p>
+          <div class="flex items-center text-sm text-gray-500">
+            <i data-lucide="clock" class="w-4 h-4 mr-2"></i>
+            <span>Ongoing development, first phase completion 2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Geology of Kurdistan</h3>
+          <p class="mb-4">Exploring the geological wonders and resources of the Kurdistan region.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="twitter" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="facebook" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="linkedin" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="youtube" class="w-5 h-5"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="articles.html" class="hover:text-white transition-colors">Articles</a></li>
+            <li><a href="maps.html" class="hover:text-white transition-colors">Maps</a></li>
+            <li><a href="petroleum.html" class="hover:text-white transition-colors">Petroleum Data</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Resources</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white transition-colors">Research Papers</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Geological Surveys</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Educational Materials</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Data Sources</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Contact</h3>
+          <ul class="space-y-2">
+            <li class="flex items-start">
+              <i data-lucide="mail" class="w-5 h-5 mr-2 mt-0.5"></i>
+              <span>info@geologykurdistan.com</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="map-pin" class="w-5 h-5 mr-2 mt-0.5"></i>
+              <span>Erbil, Kurdistan Region</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+        <p>&copy; 2025 Geology of Kurdistan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Initialize ScrollReveal
+    ScrollReveal().reveal('.geo-card', {
+      delay: 200,
+      distance: '20px',
+      origin: 'bottom',
+      interval: 100,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    });
+  </script>
+</body>
+</html>

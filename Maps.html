@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maps | Geology of Kurdistan</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body class="bg-gray-50">
+  <!-- Header -->
+  <header class="header-gradient p-6 shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kurdistan.svg" alt="Kurdistan Flag" 
+             class="h-14 rounded-full shadow-lg border-2 border-white transform hover:rotate-12 transition-transform duration-300" />
+        <h1 class="text-white text-3xl md:text-4xl font-bold tracking-tight">Geology of Kurdistan</h1>
+      </div>
+      <nav class="mt-4 md:mt-0" aria-label="Main Navigation">
+        <ul class="flex flex-wrap justify-center gap-4 md:gap-6 text-white font-medium">
+          <li><a href="index.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="home" class="w-5 h-5"></i> Home</a></li>
+          <li><a href="articles.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="book-open"></i> Articles</a></li>
+          <li><a href="maps.html" class="underline font-semibold flex items-center gap-1 px-3 py-2 rounded-lg bg-white bg-opacity-20">
+            <i data-lucide="map"></i> Maps</a></li>
+          <li><a href="petroleum.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="fuel"></i> Petroleum</a></li>
+          <li><a href="about.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="info"></i> About</a></li>
+          <li><a href="contact.html" class="hover:underline flex items-center gap-1 px-3 py-2 rounded-lg hover:bg-white hover:bg-opacity-20 transition-all">
+            <i data-lucide="mail"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <div class="absolute inset-0 bg-black opacity-40"></div>
+      <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+           alt="Topographic map" class="w-full h-full object-cover">
+    </div>
+    
+    <div class="max-w-6xl mx-auto px-4 relative z-10 text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-6">Geological & Tectonic Maps</h1>
+      <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">Explore detailed geological maps, tectonic features, and paleogeographic reconstructions of the Kurdistan region.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#geological" class="btn bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold">
+          Geological Maps
+        </a>
+        <a href="#tectonic" class="btn bg-yellow-500 hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold">
+          Tectonic Maps
+        </a>
+        <a href="#paleo" class="btn bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold">
+          Paleomaps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-4 py-16">
+    <!-- Geological Maps Section -->
+    <section id="geological" class="mb-20 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Geological Maps</h2>
+        <div class="w-20 h-1 bg-green-600 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Detailed geological mapping showing rock units, formations, and geological boundaries across the Kurdistan region.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="map-container fade-in">
+          <img src="https://wiki.aapg.org/images/a/a5/M106Ch12Fig02.jpg" alt="Geological Map of Kurdistan" 
+               class="w-full h-64 md:h-80 object-cover transition-transform duration-500 hover:scale-105">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Geological Map of Kurdistan Region</h3>
+            <p class="text-gray-700 mb-4">This map highlights the rock units, formations, and geological boundaries across the Kurdistan region.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Source: AAPG</span>
+              <a href="https://wiki.aapg.org/images/a/a5/M106Ch12Fig02.jpg" target="_blank" 
+                 class="text-green-600 hover:underline font-medium flex items-center">
+                View full size
+                <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container fade-in">
+          <img src="https://www.researchgate.net/profile/Barzan-Karim/publication/343118595/figure/fig1/AS:918061279014913@1595915640083/Geological-map-of-Kurdistan-Region-of-Iraq-showing-the-main-geological-units-and-the.ppm" 
+               alt="Detailed Geological Map" class="w-full h-64 md:h-80 object-cover transition-transform duration-500 hover:scale-105">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-green-800 mb-2">Detailed Geological Map</h3>
+            <p class="text-gray-700 mb-4">Comprehensive geological mapping showing main geological units and structural features.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Source: ResearchGate</span>
+              <a href="https://www.researchgate.net/figure/Geological-map-of-Kurdistan-Region-of-Iraq-showing-the-main-geological-units-and-the_fig1_343118595" 
+                 target="_blank" class="text-green-600 hover:underline font-medium flex items-center">
+                View source
+                <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tectonic Maps Section -->
+    <section id="tectonic" class="mb-20 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tectonic Maps</h2>
+        <div class="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Maps showing the major fault lines, thrust belts, and tectonic divisions of the region.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="map-container fade-in">
+          <img src="https://wiki.aapg.org/images/c/cb/M106Ch12Fig03.jpg" alt="Tectonic Map of Iraq" 
+               class="w-full h-64 md:h-80 object-cover transition-transform duration-500 hover:scale-105">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-yellow-700 mb-2">Tectonic Map of Iraq</h3>
+            <p class="text-gray-700 mb-4">This tectonic map shows the major fault lines, thrust belts, and tectonic divisions of Iraq including the Zagros fold-thrust belt.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Source: AAPG</span>
+              <a href="https://wiki.aapg.org/images/c/cb/M106Ch12Fig03.jpg" target="_blank" 
+                 class="text-yellow-600 hover:underline font-medium flex items-center">
+                View full size
+                <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container fade-in">
+          <img src="https://www.researchgate.net/profile/Barzan-Karim/publication/343118595/figure/fig2/AS:918061279014913@1595915640085/Tectonic-map-of-Iraq-showing-the-main-tectonic-zones-and-subzones.ppm" 
+               alt="Detailed Tectonic Map" class="w-full h-64 md:h-80 object-cover transition-transform duration-500 hover:scale-105">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-yellow-700 mb-2">Detailed Tectonic Map</h3>
+            <p class="text-gray-700 mb-4">Map showing the main tectonic zones and subzones of Iraq with detailed structural features.</p>
+            <div class="flex justify-between items-center">
+              <span class="text-sm text-gray-500">Source: ResearchGate</span>
+              <a href="https://www.researchgate.net/figure/Tectonic-map-of-Iraq-showing-the-main-tectonic-zones-and-subzones_fig2_343118595" 
+                 target="_blank" class="text-yellow-600 hover:underline font-medium flex items-center">
+                View source
+                <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paleomaps Section -->
+    <section id="paleo" class="mb-12 scroll-mt-16">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Paleogeographic Maps</h2>
+        <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Interactive maps showing what the world looked like millions of years ago, including the tectonic positions of ancient continents.</p>
+      </div>
+      
+      <div class="space-y-12">
+        <div class="map-container fade-in">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Ancient Earth – 240 Million Years Ago</h3>
+            <p class="text-gray-700 mb-4">This interactive map shows what the world looked like during the Triassic period, when all continents were joined in the supercontinent Pangaea.</p>
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://dinosaurpictures.org/ancient-earth#240"
+                width="100%"
+                height="500"
+                style="border: none;"
+                loading="lazy"
+                allowfullscreen
+                class="rounded-lg shadow">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container fade-in">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Ancient Earth – Global Paleomap</h3>
+            <p class="text-gray-700 mb-4">Explore different periods of Earth's history with this interactive paleogeographic map based on continental drift and fossil records.</p>
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://dinosaurpictures.org/ancient-earth#"
+                width="100%"
+                height="500"
+                style="border: none;"
+                loading="lazy"
+                allowfullscreen
+                class="rounded-lg shadow">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        
+        <div class="map-container fade-in">
+          <div class="p-6 bg-white">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2">Macrostrat Geological Map of Kurdistan</h3>
+            <p class="text-gray-700 mb-4">This interactive map provides a detailed view of the geological features of the Kurdistan region, including satellite and geology layers.</p>
+            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+              <a href="https://macrostrat.org/map/#x=43.254&y=37.299&z=6.8&show=satellite,geology" target="_blank" 
+                 class="btn bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold inline-flex items-center">
+                <i data-lucide="map" class="w-5 h-5 mr-2"></i>
+                Explore Macrostrat Map
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Additional Resources -->
+    <section class="bg-gray-100 rounded-xl p-8">
+      <div class="text-center mb-6">
+        <h3 class="text-2xl font-bold text-gray-800 mb-2">More Mapping Resources</h3>
+        <p class="text-gray-600 max-w-2xl mx-auto">Explore these additional resources for geological and tectonic mapping of the region.</p>
+      </div>
+      
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+          <div class="bg-green-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <i data-lucide="layers" class="w-6 h-6 text-green-600"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">USGS Maps</h4>
+          <p class="text-gray-700 mb-4">Geological surveys and maps from the United States Geological Survey.</p>
+          <a href="https://www.usgs.gov" target="_blank" class="text-green-600 hover:underline font-medium flex items-center">
+            Visit site
+            <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+          <div class="bg-blue-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <i data-lucide="globe" class="w-6 h-6 text-blue-600"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">OneGeology</h4>
+          <p class="text-gray-700 mb-4">Global geological map data from the world's geological surveys.</p>
+          <a href="https://www.onegeology.org" target="_blank" class="text-blue-600 hover:underline font-medium flex items-center">
+            Visit site
+            <i data-lucide="external-link" class="w-4 h-4 ml-1"></i>
+          </a>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition-shadow">
+          <div class="bg-purple-100 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-4">
+            <i data-lucide="database" class="w-6 h-6 text-purple-600"></i>
+          </div>
+          <h4 class="font-semibold text-lg mb-2">Kurdistan Geological Survey</h4>
+          <p class="text-gray-700 mb-4">Official geological data and maps from the Kurdistan Region.</p>
+          <a href="#" class="text-purple-600 hover:underline font-medium flex items-center">
+            Coming soon
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="grid md:grid-cols-4 gap-8">
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Geology of Kurdistan</h3>
+          <p class="mb-4">Exploring the geological wonders and resources of the Kurdistan region.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="twitter" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="facebook" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="linkedin" class="w-5 h-5"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i data-lucide="youtube" class="w-5 h-5"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a href="index.html" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="articles.html" class="hover:text-white transition-colors">Articles</a></li>
+            <li><a href="maps.html" class="hover:text-white transition-colors">Maps</a></li>
+            <li><a href="petroleum.html" class="hover:text-white transition-colors">Petroleum Data</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Resources</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="hover:text-white transition-colors">Research Papers</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Geological Surveys</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Educational Materials</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Data Sources</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h3 class="text-white text-lg font-semibold mb-4">Contact</h3>
+          <ul class="space-y-2">
+            <li class="flex items-start">
+              <i data-lucide="mail" class="w-5 h-5 mr-2 mt-0.5"></i>
+              <span>info@geologykurdistan.com</span>
+            </li>
+            <li class="flex items-start">
+              <i data-lucide="map-pin" class="w-5 h-5 mr-2 mt-0.5"></i>
+              <span>Erbil, Kurdistan Region</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+        <p>&copy; 2025 Geology of Kurdistan. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+    
+    // Initialize ScrollReveal
+    ScrollReveal().reveal('.fade-in', {
+      delay: 200,
+      distance: '20px',
+      origin: 'bottom',
+      interval: 100,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    });
+  </script>
+</body>
+</html>
